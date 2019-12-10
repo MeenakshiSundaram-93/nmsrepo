@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="smoke_suite" duration-ms="27003" started-at="2019-12-09T15:19:26Z" finished-at="2019-12-09T15:19:53Z">
+    <groups>
+    </groups>
+    <test name="Goibibo Test" duration-ms="27003" started-at="2019-12-09T15:19:26Z" finished-at="2019-12-09T15:19:53Z">
+      <class name="testcases.HomePageTestCases">
+        <test-method status="PASS" signature="initReport()[pri:0, instance:testcases.HomePageTestCases@180bc464]" name="initReport" is-config="true" duration-ms="220" started-at="2019-12-09T20:49:26Z" finished-at="2019-12-09T20:49:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testcases.HomePageTestCases@180bc464]" name="launchBrowser" is-config="true" duration-ms="15187" started-at="2019-12-09T20:49:26Z" finished-at="2019-12-09T20:49:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="validateEnteringWrongValuesInMandateFields()[pri:1, instance:testcases.HomePageTestCases@180bc464]" name="validateEnteringWrongValuesInMandateFields" duration-ms="3979" started-at="2019-12-09T20:49:42Z" finished-at="2019-12-09T20:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEnteringWrongValuesInMandateFields -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.HomePageTestCases@180bc464]" name="getResult" is-config="true" duration-ms="2" started-at="2019-12-09T20:49:46Z" finished-at="2019-12-09T20:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateEnteringWrongValuesInMandateFields status=SUCCESS method=HomePageTestCases.validateEnteringWrongValuesInMandateFields()[pri:1, instance:testcases.HomePageTestCases@180bc464] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="validateEnteringValuesInMandateFields()[pri:2, instance:testcases.HomePageTestCases@180bc464]" name="validateEnteringValuesInMandateFields" duration-ms="5640" started-at="2019-12-09T20:49:46Z" finished-at="2019-12-09T20:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEnteringValuesInMandateFields -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.HomePageTestCases@180bc464]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-09T20:49:51Z" finished-at="2019-12-09T20:49:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateEnteringValuesInMandateFields status=SUCCESS method=HomePageTestCases.validateEnteringValuesInMandateFields()[pri:2, instance:testcases.HomePageTestCases@180bc464] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDownReports()[pri:0, instance:testcases.HomePageTestCases@180bc464]" name="tearDownReports" is-config="true" duration-ms="5416" started-at="2019-12-09T20:49:54Z" finished-at="2019-12-09T20:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReports -->
+      </class> <!-- testcases.HomePageTestCases -->
+      <class name="testcases.SearchPageTestCases">
+        <test-method status="PASS" signature="validateSearchPageValues()[pri:3, instance:testcases.SearchPageTestCases@1324409e]" name="validateSearchPageValues" duration-ms="186" started-at="2019-12-09T20:49:51Z" finished-at="2019-12-09T20:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchPageValues -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.SearchPageTestCases@1324409e]" name="getResult" is-config="true" duration-ms="1" started-at="2019-12-09T20:49:51Z" finished-at="2019-12-09T20:49:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateSearchPageValues status=SUCCESS method=SearchPageTestCases.validateSearchPageValues()[pri:3, instance:testcases.SearchPageTestCases@1324409e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="validateSearchPagePricesValuesInDescendingOrder()[pri:4, instance:testcases.SearchPageTestCases@1324409e]" name="validateSearchPagePricesValuesInDescendingOrder" duration-ms="1921" started-at="2019-12-09T20:49:51Z" finished-at="2019-12-09T20:49:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchPagePricesValuesInDescendingOrder -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testcases.SearchPageTestCases@1324409e]" name="getResult" is-config="true" duration-ms="0" started-at="2019-12-09T20:49:53Z" finished-at="2019-12-09T20:49:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateSearchPagePricesValuesInDescendingOrder status=SUCCESS method=SearchPageTestCases.validateSearchPagePricesValuesInDescendingOrder()[pri:4, instance:testcases.SearchPageTestCases@1324409e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- testcases.SearchPageTestCases -->
+    </test> <!-- Goibibo Test -->
+  </suite> <!-- smoke_suite -->
+</testng-results>

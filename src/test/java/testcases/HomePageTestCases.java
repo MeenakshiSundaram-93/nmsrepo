@@ -24,7 +24,7 @@ public class HomePageTestCases extends BaseTest {
 	@Test(priority = 2)
 	public void validateEnteringValuesInMandateFields() {
 		test = extent.createTest("Validate the Homepage by entering Correct values in the field",
-				"Enter the right value to validate error msg");
+				"Enter the right value to validate error msgs");
 		HomePage homePage = new HomePage(driver, test);
 		SearchPage searchPage = new SearchPage(driver, test);
 
